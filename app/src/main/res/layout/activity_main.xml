@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivMainLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_logo"
+        android:layout_margin="30dp"
+        android:contentDescription="mainLogo"
+        android:layout_above="@id/socialBtnGroup"/>
+
+    <LinearLayout
+        android:id="@+id/socialBtnGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+            android:id="@+id/buttonOAuthLoginImg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!--Google Sign In 부분-->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_googleSignIn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonOAuthLoginImg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.common.SignInButton>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/btnNaverLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/mainActivityLoginButtonMarginSide"
+            android:layout_marginVertical="@dimen/mainActivityLoginButtonMarginTomBottom"
+            android:layout_weight="1"
+            android:background="@drawable/social_login_naver_button"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_naver_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:contentDescription="@string/naver_login"
+                app:srcCompat="@drawable/naver_logo" />
+
+            <TextView
+                android:id="@+id/tvNaverLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@color/naver_theme_color"
+                android:gravity="center"
+                android:text="@string/naver_login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mainActivityLoginButtonTextSize"
+                android:layout_marginRight="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnKakaoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/mainActivityLoginButtonMarginSide"
+            android:layout_marginVertical="@dimen/mainActivityLoginButtonMarginTomBottom"
+            android:layout_weight="1"
+            android:background="@drawable/social_login_kakao_button"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_kakao_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:contentDescription="@string/kakao_login"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_kakao_logo" />
+
+            <TextView
+                android:id="@+id/tvKakaoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/kakao_login"
+                android:textColor="@color/kakao_text_color"
+                android:textSize="@dimen/mainActivityLoginButtonTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/mainActivityLoginButtonMarginSide"
+            android:layout_marginVertical="@dimen/mainActivityLoginButtonMarginTomBottom"
+            android:layout_weight="1"
+            android:background="@drawable/social_login_google_button"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_google_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:contentDescription="@string/google_login"
+                android:padding="7dp"
+                app:srcCompat="@drawable/ic_google" />
+
+            <TextView
+                android:id="@+id/tvGoogleLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/google_login"
+                android:textColor="@color/google_text_color"
+                android:textSize="@dimen/mainActivityLoginButtonTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnFacebookLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/mainActivityLoginButtonMarginSide"
+            android:layout_marginVertical="@dimen/mainActivityLoginButtonMarginTomBottom"
+
+            android:layout_weight="1"
+            android:background="@drawable/social_login_facebook_button"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_facebook_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:contentDescription="@string/facebook_login"
+                app:srcCompat="@drawable/ic_facebook_logo" />
+
+            <TextView
+                android:id="@+id/tvFacebookLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/facebook_login"
+                android:textColor="@color/facebook_text_color"
+                android:textSize="@dimen/mainActivityLoginButtonTextSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

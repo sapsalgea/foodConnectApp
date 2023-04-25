@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable-anydpi-v24/ic_noti_icon.xml" value="0.1890625" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/circular_textview_green_edge.xml" value="0.2484375" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/circular_textview_red_edge.xml" value="0.2484375" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/group_chat_list_shop_name_background.xml" value="0.2484375" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/ic_logo.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/main_fragment_rooms_status_full.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/drawable/permission_indecator.xml" value="0.2609375" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_chat_image_zoom.xml" value="0.25" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_chat_room.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_create_room_activity.xml" value="0.1" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_create_room_map_search.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_direct_message.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_join_room_subscription.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_permission_granted.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_room_information.xml" value="0.25" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_room_search.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_user_profile_modify.xml" value="0.175" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/activity_user_register.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/badge_list_info_dialog.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/chat_my_image_message.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/chat_others_image_message.xml" value="0.1640625" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/chat_room_subscription_list_item.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/chat_room_user_list_item.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/chat_server_item.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/main_fragment.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/main_page_item.xml" value="0.1640625" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/layout/permission_item.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/menu/menu_bottom.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/Team2/app/src/main/res/mipmap-anydpi-v26/ic_app_icon_round.xml" value="0.1890625" />
+        <entry key="..\:/Users/moon3/AndroidStudioProjects/TeamProjectNew/app/src/main/res/layout/activity_main.xml" value="0.3453703703703704" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

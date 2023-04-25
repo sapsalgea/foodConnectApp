@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rvItemLinearLayout"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="9dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="4dp"
+            android:visibility="gone"
+            android:id="@+id/showingMeTv"
+            android:gravity="center"
+            android:background="@drawable/ranking_fragment_itme_black_circle"
+            android:text="나"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+
+        <ImageView
+            android:id="@+id/topRankMedalIv"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/rankTv"
+            android:text="1"
+            android:textSize="16dp"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/toProfileActivityLinearLayout"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImageIv"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/nicnameTv"
+            android:text="닉네임"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+<!--        <TextView-->
+<!--            android:textSize="11dp"-->
+<!--            android:layout_marginRight="4dp"-->
+<!--            android:id="@+id/showingMeTv"-->
+<!--            android:gravity="center"-->
+<!--            android:visibility="gone"-->
+<!--            android:background="@drawable/ranking_fragment_itme_black_circle"-->
+<!--            android:text="나"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tierBadgeImageIv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="2dp"
+                />
+
+            <TextView
+
+                android:id="@+id/tierTv"
+                android:text="티어"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/rankingPointTv"
+            android:text="포인트"
+            android:textSize="16dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+<!--    <View-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.1dp"-->
+<!--        android:background="#AAffffff"/>-->
+
+
+
+
+
+</LinearLayout>

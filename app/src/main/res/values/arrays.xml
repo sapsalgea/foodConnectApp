@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="roomSearchArray">
+        <item>전체</item>
+        <item>방제목</item>
+        <item>매장명</item>
+        <item>지역</item>
+        <item>키워드</item>
+    </string-array>
+
+</resources>

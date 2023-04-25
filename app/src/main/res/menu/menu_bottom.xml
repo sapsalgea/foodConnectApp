@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="@string/fragment_menu_home"/>
+    <item android:id="@+id/menu_review"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="@string/fragment_menu_review"/>
+    <item android:id="@+id/menu_ranking"
+        android:icon="@drawable/ic__414791"
+        android:title="@string/fragment_menu_ranking"/>
+    <item android:id="@+id/menu_chat"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"
+        android:title="@string/fragment_menu_chat"/>
+    <item android:id="@+id/menu_mypage"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/fragment_menu_mypage"/>
+</menu>

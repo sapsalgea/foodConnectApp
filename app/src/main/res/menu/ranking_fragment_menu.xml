@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/ranking_explanation_btn"
+        android:icon="@drawable/ic_baseline_ranking_info_24"
+        android:title="랭킹정보"
+        app:showAsAction="always|collapseActionView" />
+
+<!--    <item-->
+<!--        android:id="@+id/Item5"-->
+<!--        android:icon="@drawable/ic_baseline_search_24"-->
+<!--        android:title="Item5"-->
+<!--        app:showAsAction="always|collapseActionView"-->
+<!--        app:actionViewClass="androidx.appcompat.widget.SearchView"/>-->
+
+
+
+    <item android:id="@+id/filter_btn"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="검색필터"
+        app:showAsAction="ifRoom|collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/Item0"
+                android:title="전체" />
+            <item
+                android:id="@+id/Item1"
+                android:title="챌린저" />
+            <item
+                android:id="@+id/Item2"
+                android:title="마스터" />
+            <item
+                android:id="@+id/Item3"
+                android:title="다이아몬드" />
+            <item
+                android:id="@+id/Item4"
+                android:title="플래티넘" />
+            <item
+                android:id="@+id/Item5"
+                android:title="골드" />
+            <item
+                android:id="@+id/Item6"
+                android:title="실버" />
+            <item
+                android:id="@+id/Item7"
+                android:title="브론즈" />
+            <item
+                android:id="@+id/Item8"
+                android:title="스톤" />
+        </menu>
+    </item>
+
+</menu>

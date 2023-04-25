@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="25dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/profileSearchIv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/nicNameSearchTv"
+                    android:text="닉네임"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="  "
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/writingDateSearchTv"
+                    android:text="21.07.21 금요일"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/restaurantAddressSearchTv"
+                    android:text="서울시>영등포구"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text=">"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/restaurantNameSearchTv"
+                    android:text="가게이름"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/reviewClickBtn"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/reviewDescriptionTv"
+                android:layout_marginRight="10dp"
+                android:padding="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:maxLines="5"
+                android:ellipsize="end"/>
+
+            <View
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#AA000000"/>
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginRight="25dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:gravity="center">-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:gravity="center"-->
+<!--                    android:id="@+id/likeBtn"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginRight="10dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/heartIv"-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:src="@drawable/ic_baseline_favorite_24" />-->
+
+
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/likeCountTv"-->
+<!--                        android:text="5"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+
+
+<!--                </LinearLayout>-->
+
+
+
+<!--                <LinearLayout-->
+<!--                    android:gravity="center"-->
+<!--                    android:id="@+id/commentBtn"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_marginRight="2dp"-->
+<!--                        android:src="@drawable/ic_baseline_black_chat_bubble_24" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/commentCountTv"-->
+<!--                        android:text="5"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+
+<!--                    &lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:text="개"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/likeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <ImageView
+                        android:id="@+id/heartIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_baseline_favorite_24" />
+
+
+
+<!--                    <TextView-->
+<!--                        android:text=" 좋아요  "-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+                    <TextView
+                        android:id="@+id/likeCountTv"
+                        android:text="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+<!--                    <TextView-->
+<!--                        android:text="개"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/commentBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/ic_baseline_chat_bubble_black_24"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+                    <TextView
+                        android:text="   댓글 "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/commentCountTv"
+                        android:text="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+<!--                    <TextView-->
+<!--                        android:text="개"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/searchImageIv"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

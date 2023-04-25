@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ReviewWriting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/MainToolbar" />
+
+
+
+
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="center"
+                    android:text="모임장소 :"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/restaurantAddressInfoTv"
+                    android:text="서울>중구>원할머니보쌈"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#FF0a0a0a"/>
+
+
+
+
+
+
+        <HorizontalScrollView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/hsv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/container_selected_photos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:animateLayoutChanges="true"
+                    android:gravity="start"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+
+                </LinearLayout>
+
+                <Button
+                    android:drawableTop="@drawable/ic_baseline_add_48"
+                    android:text="사진 0/3"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:id="@+id/img_add_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:src="@drawable/ic_baseline_autorenew_24"
+                    android:id="@+id/img_change_btn"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>
+
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#FF0a0a0a"/>
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="23dp"-->
+<!--                android:text="상세주소"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/restaurantAddressTv"-->
+<!--                android:textSize="23dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="23dp"-->
+<!--                android:text="맛"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingStarTaste"-->
+<!--                android:isIndicator="false"-->
+<!--                android:numStars="5"-->
+<!--                android:stepSize="1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="23dp"-->
+<!--                android:text="서비스"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingStarService"-->
+<!--                android:isIndicator="false"-->
+<!--                android:numStars="5"-->
+<!--                android:stepSize="1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="23dp"-->
+<!--                android:text="위생"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingStarClean"-->
+<!--                android:isIndicator="false"-->
+<!--                android:numStars="5"-->
+<!--                android:stepSize="1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="23dp"-->
+<!--                android:text="인테리어"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingStarInterior"-->
+<!--                android:isIndicator="false"-->
+<!--                android:numStars="5"-->
+<!--                android:stepSize="1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/reveiwDescriptionEt"
+                android:hint="리뷰를 작성해주세요"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/writingFinishBtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="작성완료"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

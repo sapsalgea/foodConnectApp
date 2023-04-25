@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+             <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/messageCheckTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="5dp"
+                    android:textSize="12dp"
+                    tools:text="읽음" />
+
+
+            <TextView
+                android:id="@+id/ImageChatMyTimeStamp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|end"
+                android:paddingEnd="5dp"
+                tools:text="20:21" />
+             </LinearLayout>
+
+            <TextView
+                android:id="@+id/ImageChatMyMessageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_my_message_background"
+                android:elevation="30dp"
+                android:maxWidth="300dp"
+                android:outlineProvider="none"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                tools:text="dddddd" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

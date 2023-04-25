@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Item1"
+        android:title="유쾌함" />
+    <item
+        android:id="@+id/Item2"
+        android:title="고독한미식가" />
+    <item
+        android:id="@+id/Item3"
+        android:title="재미있음" />
+    <item
+        android:id="@+id/Item4"
+        android:title="시끄러움" />
+    <item
+        android:id="@+id/Item5"
+        android:title="무뚝뚝" />
+    <item
+        android:id="@+id/Item6"
+        android:title="맛잘알" />
+    <item
+        android:id="@+id/Item7"
+        android:title="친화력갑" />
+    <item
+        android:id="@+id/Item8"
+        android:title="미소지기" />
+    <item
+        android:id="@+id/Item9"
+        android:title="부담스러움" />
+    <item
+        android:id="@+id/Item10"
+        android:title="선택안함" />
+</menu>

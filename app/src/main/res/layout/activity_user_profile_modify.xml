@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfileModifyActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/userProfileModifyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/MainToolbar" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/userProfileIv"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                 />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignBottom="@+id/userProfileIv"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="230dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="109dp"
+                android:layout_marginEnd="144dp"
+                android:layout_marginRight="144dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/white_radius"
+                android:src="@drawable/ic_baseline_photo_camera_24" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/userProfileNicNameTv"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="닉네임"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/nicNameChangeBtn"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/CreateRoomInformationInputLayout"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="2000"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/CreateRoomActivityRoomInformationInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="자기소개를 입력해주세요"
+                    android:maxHeight="280dp"
+                    android:overScrollMode="always"
+                    android:textCursorDrawable="@drawable/edit_text_cursor_color"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:backgroundTint="@color/com_facebook_blue"
+        android:id="@+id/profileModifyOkBtn"
+        android:textSize="20dp"
+        android:text="완료"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

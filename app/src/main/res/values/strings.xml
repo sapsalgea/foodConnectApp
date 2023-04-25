@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">푸드 커넥트</string>
+    <string name="join">입장</string>
+    <string name="lastLogin">lastLogin</string>
+
+    <!--메인 액티비티사용 텍스트-->
+    <string name="naver_login">네이버 로그인</string>
+    <string name="kakao_login">카카오 로그인</string>
+    <string name="google_login">구글 로그인</string>
+    <string name="facebook_login">페이스북 로그인</string>
+
+    <!--메인프 래그먼트 액티비티사용 텍스트-->
+    <string name="fragment_menu_home">홈</string>
+    <string name="fragment_menu_review">리뷰</string>
+    <string name="fragment_menu_ranking">랭킹</string>
+    <string name="fragment_menu_chat">채팅</string>
+    <string name="fragment_menu_mypage">마이페이지</string>
+    <string name="room_status_imminent_time">%d시간</string>
+    <string name="create_room_name_edit_text_hint">방제목</string>
+    <string name="limit_age_badge">%d~%d</string>
+
+    <!--방만들기 액티비티에서 사용 텍스트-->
+    <string name="create_room_activity_recruitment_number">모집인원</string>
+    <string name="create_room_activity_date_and_time">날짜/시간</string>
+    <string name="create_room_activity_Location">위치</string>
+    <string name="create_room_activity_room_info_hint">방 소개</string>
+    <string name="create_room_activity_room_title_hint">방 제목</string>
+    <string name="create_room_activity_room_shop_name_hint">매장 이름</string>
+    <string name="create_room_activity_gender_limit">성별 제한</string>
+    <string name="create_room_activity_age_limit">나이 제한</string>
+    <string name="create_room_activity_minimum_age">최소</string>
+    <string name="create_room_activity_maximum_age">최대</string>
+    <string name="empty_key_word_text">등록된 키워드가 없습니다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

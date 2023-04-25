@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="naver_text_color">#FFFFFF</color>
+    <color name="naver_theme_color">#03c75a</color>
+    <color name="kakao_text_color">#3e2723</color>
+    <color name="kakao_theme_color">#FEE500</color>
+    <color name="google_text_color">#FFFFFF</color>
+    <color name="google_theme_color">#db4437</color>
+    <color name="facebook_text_color">#FFFFFF</color>
+    <color name="facebook_theme_color">#4E71A8</color>
+    <color name="app_theme_color">#09F6C7</color>
+    <attr name="apptheme" format="color">#09F6C7</attr>
+    <color name="orange">#FFfcba03</color>
+    <color name="green">#FF5cc259</color>
+    <color name="blue">#4E71A8</color>
+    <color name="red">#db4437</color>
+
+
+</resources>

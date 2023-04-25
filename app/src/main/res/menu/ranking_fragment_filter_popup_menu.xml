@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Item1"
+        android:title="챌린저" />
+    <item
+        android:id="@+id/Item2"
+        android:title="마스터" />
+    <item
+        android:id="@+id/Item3"
+        android:title="다이아몬드" />
+    <item
+        android:id="@+id/Item4"
+        android:title="플래티넘" />
+    <item
+        android:id="@+id/Item5"
+        android:title="골드" />
+    <item
+        android:id="@+id/Item6"
+        android:title="실버" />
+    <item
+        android:id="@+id/Item7"
+        android:title="브론즈" />
+    <item
+        android:id="@+id/Item8"
+        android:title="스톤" />
+</menu>
